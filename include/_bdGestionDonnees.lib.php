@@ -17,7 +17,7 @@
 function connecterServeurBD() {
     $hote = "localhost";
     $login = "61304_gsb_frais";
-    $mdp = "cupidon";
+    $mdp = "";
     return mysql_connect($hote, $login, $mdp);
 }
 
